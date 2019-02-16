@@ -1,0 +1,36 @@
+body {
+    background-color:#90CAF9;
+    font-family:Comic sans MS;
+    
+  }
+  #title {
+    color: black;
+    text-align: center;
+    font-size: 45px;
+  }
+  #image {
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 50px;
+    border-width: 10px;
+    border-style: solid;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    max-height: 500px;
+    border-color:#1A237E;
+     margin:0 auto;
+     display: block;
+  }
+  #img-caption{
+     margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
+  #tribute-info{
+    text-align: justify;
+    background-color: #00E676;
+    line-height: 250%;
+    padding: 10px;
+  }
+  
