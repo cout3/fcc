@@ -1,0 +1,281 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="technical.css">
+  </head>
+  <title>Technical Documentation</title>>
+<nav id="navbar">
+    <header>C Language</header>
+    <ul> 
+      <a class="nav-link" href="#Introduction" rel="internal"><li>Introduction</li></a>
+      <a class="nav-link" href="#Language_basics"><li>Language basics</li></a>
+      <a class="nav-link" href="#Data_Types" rel="internal"><li>Data Types</li></a>
+      <a class="nav-link" href="#Hello_world" rel="internal"><li>Hello world</li></a>
+      <a class="nav-link" href="#Variables"> <li>Variables</li></a>
+      <a class="nav-link" href="#Operators_and_Expressions"><li>Operators and Expressions</li></a>
+      <a class="nav-link" href="#Constant" rel="internal"><li>Constant</li></a>
+      <a class="nav-link" href="#Decision_Control_statement"><li>Decision Control statement</li></a>
+      <a class="nav-link" href="#Loop_control_statement"><li>Loop control statement</li></a>
+      <a class="nav-link" href="#Arrays"><li>Arrays</li></a>
+      <a class="nav-link" href="#Switch"><li>Switch</li></a>
+      </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <article>  
+        <p>C is a procedural programming language. It was initially developed by Dennis Ritchie between 1969 and 1973. It was mainly developed as a system programming language to write operating system. The main features of C language include low-level access to memory, simple set of keywords, and clean style, these features make C language suitable for system progrC – Operators and ExpressionsC-Constantamming like operating system or compiler development.
+  Many later languages have borrowed syntax/features directly or indirectly from C language. Like syntax of Java, PHP, JavaScript and many other languages is mainly based on C language. C++ is nearly a superset of C language (There are few programs that may compile in C, but not in C++).</p>
+        <li>In 1978, Dennis Ritchie and Brian Kernighan published the first edition “The C Programming Language” and commonly known as K&R C</li>
+  <li>In 1983, the American National Standards Institute (ANSI) established a committee to provide a modern, comprehensive definition of C. The resulting definition, the ANSI standard, or “ANSI C”, was completed late 1988.</li>
+        </article>
+      </section>
+    <section class="main-section" id="Language_basics">
+      <header>Language basics</header>
+      <article>
+        <p>This C programming basics section explains a simple “Hello World” C program. Also, it covers below basic topics as well, which are to be known by any C programmer before writing a C program.</p>
+         <li>C programming basic commands to write a C program</li>
+        <li>A simple C program with output and explanation</li>
+  <li>Creation, Compilation and Execution of a C program
+  * How to install C compiler and IDE tool to run C programming codes</li>
+        </artice>
+      </section>
+    <section class="main-section" id="Data_Types">
+      <header>Data Types</header>
+      <article>
+        <p>There are four data types in C language. They are :-<br>Basic data types	int, char, float, double<br>
+  Enumeration data type	enum<br>
+  Derived data type	pointer, array, structure, union<br>
+  Void data type	void</p>
+        </article>
+      </section>
+    <section class="main-section" id="Hello_world">
+      <header>Hello world</header>
+      <article> 
+  To get started with writing C, open the Scratchpad and write your first "Hello world" C code:
+  <code><xmp>#include<stdio.h>
+  void main()
+    {
+    printf("Hello World");
+    }
+    </xmp>
+   </code>
+  You can run this code online on any  GCC compiler or offline also just download MS Dos. Its a compiler for C language.
+    </article>
+      </section>
+    <section class="main-section" id="Variables">
+      <header>Variables</header>
+      <article>
+      <p>C variable is a named location in a memory where a program can manipulate the data. This location is used to hold the value of the variable.
+  The value of the C variable may get change in the program.
+  C variable might be belonging to any of the data type like int, float, char etc.<br>
+  RULES FOR NAMING C VARIABLE:<br>
+        <ul>
+  <li>Variable name must begin with letter or underscore.</li>
+  <li>Variables are case sensitive</li>
+  <li>They can be constructed with digits, letters.</li>
+  <li>No special symbols are allowed other than underscore.</C – Operators and Expressionsli>
+  <li>sum, height, _value are some examples for variable name.</li></p>
+      <article>
+       </section>
+    <section class="main-section" id="Operators_and_Expressions">
+      <header>Operators and Expressions</header>
+      <article>
+        <p>The symbols which are used to perform logical and mathematical operations in a C program are called C operators.
+  These C operators join individual constants and variables to form expressions.
+  Operators, functions, constants and variables are combined together to form expressions.
+  Consider the expression A + B * 5. where, +, * are operators, A, B  are variables, 5 is constant and A + B * 5 is an expression.
+  C language offers many types of operators.They are :-
+        <ol>
+          <li>Arithmetic operators</li>
+  <li>Assignment operators</li>
+  <li>Relational operators</li>
+  <li>Logical operators</li>
+  <li>Bit wise operators</li>
+  <li>Conditional operators (ternary operators)</li>
+  <li>Increment/decrement operators</li>
+  <li>Special operators</li>
+          </ol>
+        </p>
+      </article>
+      </section>
+    <section class="main-section" id="Constant">
+      <header>Constant</header>
+      <article>
+       <p> C Constants are also like normal variables. But, only difference is, their values can not be modified by the program once they are defined.Constants refer to fixed values. They are also called as literals Constants may be belonging to any of the data type.<br> 
+        syntax :-const data_type variable_name; (or) const data_type *variable_name;
+        <ol>
+          <li>Integer constants</li>
+          <li>Real or Floating point constants</li>
+          <li>Octal & Hexadecimal constants</li>
+          <li>Character constants</li>
+          <li>String constants</li>
+          <li>Backslash character constants</li>
+          </ol>
+          </p>
+      </article>
+      </section>
+    <section class="main-section" id="Decision_Control_statement">
+      <header>Decision Control statement</header>
+      <article>
+        <p>In decision control statements (if-else and nested if), group of statements are executed when condition is true.  If condition is false, then else part statements are executed.
+  There are 3 types of decision making control statements in C language. They are :-
+          <ol>
+    <li>if statements</li>
+    <li>if else statements</li>
+    <li>nested if statements</li>
+            </ol>
+        <code><xmp>#include<<stdio.h>>
+          void main()
+          {
+          int a=2;
+          if(a==2)
+          {
+          printf("yes a=2");
+          }
+          else{
+          printf("no a!=2")
+          }
+          }
+          </xmp></code>
+        </p>
+       </article>
+      </section>
+    <section class="main-section" id="Loop_control_statement">
+      <header>Loop control statement</header>
+      <article>
+        <p>Loop control statements in C are used to perform looping operations until the given condition is true. Control comes out of the loop statements once condition becomes false.There are 3 types of loop control statements in C language. They are,
+          <ol>
+          <li>for</li>
+  <li>while</li>
+  <li>do-while</li>
+            </ol>
+        <code><xmp>#include<<stdio.h>>
+  int main()
+  {
+      int num, count, sum = 0;
+  
+      printf("Enter a positive integer: ");
+      scanf("%d", &num);
+  for(count = 1; count <= num; ++count)
+      {
+          sum += count;
+      }
+  
+      printf("Sum = %d", sum);
+  
+      return 0;
+  }
+                             </xmp></code>
+          </p>
+        </article>
+      </section>
+  <section class="main-section" id="Arrays">
+      <header>Arrays</header>
+      <article>
+        <p>C Array is a collection of variables belongings to the same data type. You can store group of data of same data type in an array. 
+          <ul>
+          <li>Array might be belonging to any of the data types</li>
+  <li>Array size must be a constant value.</li>
+  <li>Always, Contiguous (adjacent) memory locations are used to store array elements in memory.</li>
+  <li>It is a best practice to initialize an array to zero or null while declaring, if we don’t assign any values to array.</li><br>
+  EXAMPLE FOR C ARRAYS:<br><br>
+  int a[10];     // integer array<br><br>
+  char b[10];   // character array   i.e. string<br><br>
+  TYPES OF C ARRAYS:<br>
+      <ol>
+  <li>One dimensional array</li>
+  <li>Multi dimensional array</li>
+  <li>Two dimensional array</li>
+  <li>Three dimensional array</li>
+  <li>four dimensional array</li> 
+        </ol>
+            <code><xmp>
+              #include<<stdio.h>> 
+   
+  int main() 
+  { 
+       int i; 
+       int arr[5] = {10,20,30,40,50}; 
+      
+          // declaring and Initializing array in C 
+          //To initialize all array elements to 0, use int arr[5]={0}; 
+          /* Above array can be initialized as below also 
+          arr[0] = 10; 
+          arr[1] = 20; 
+          arr[2] = 30; 
+          arr[3] = 40;
+          arr[4] = 50; */
+   
+       for (i=0;i<5;i++) 
+       { 
+           // Accessing each variable
+           printf("value of arr[%d] is %d \n", i, arr[i]); 
+        } 
+   
+  } 
+            </xmp></code>
+            </p>
+        </section>
+    </article>
+    <section class="main-section" id="Switch">
+      <header>Switch</header>
+      <article>
+        <p>When you want to solve multiple option type problems, for example: Menu like program, where one value is associated with each option and you need to choose only one at a time, then, switch statement is used.
+  
+  Switch statement is a control statement that allows us to choose only one choice among the many given choices. The expression in switch evaluates to return an integral value, which is then compared to the values present in different cases. It executes that block of code which matches the case value. If there is no match, then default block is executed(if present). 
+          <p>Rules for Using switch statement
+          <ul>
+          <li>The expression (after switch keyword) must yield an integer value i.e the expression should be an integer or a variable or an expression that evaluates to an integer.</li>
+  <li>The case label values must be unique.</li>
+  <li>The case label must end with a colon(:)</li>
+  <li>The next line, after the case statement, can be any valid C statement.</li><br>
+  Points to remember :<br><br>
+       <ol>
+  <li>We don't use those expressions to evaluate switch case, which may return floating point values or strings or characters.</li>
+  <li>break statements are used to exit the switch block. It isn't necessary to use break after each block, but if you do not use it, then all the consecutive blocks of code will get executed after the matching block.The output was supposed to be only A because only the first case matches, but as there is no break statement after that block, the next blocks are executed too, until it a break statement in encountered or the execution reaches the end of the switch block.</li>
+  <li>default case is executed when none of the mentioned case matches the switch expression. The default case can be placed anywhere in the switch case. Even if we don't include the default case, switch statement works.</li>
+  <li>Nesting of switch statements are allowed, which means you can have switch statements inside another switch block. However, nested switch statements should be avoided as it makes the program more complex and less readable.</li>
+        </ol>
+            <p> An example of a switch statement :-</p>
+            <code><xmp>
+              #include<stdio.h>
+              void main( )
+                        {
+                int a, b, c, choice;
+                  while(choice != 3)
+                {
+              /* Printing the available options */
+                printf("\n 1. Press 1 for addition");
+                printf("\n 2. Press 2 for subtraction");
+                printf("\n Enter your choice");
+                /* Taking users input */
+                scanf("%d", &choice);
+          
+          switch(choice)
+          {
+              case 1:
+                  printf("Enter 2 numbers");
+                  scanf("%d%d", &a, &b);
+                  c = a + b;
+                  printf("%d", c);
+                  break;
+              case 2:
+                  printf("Enter 2 numbers");
+                  scanf("%d%d", &a, &b);
+                  c = a - b;
+                  printf("%d", c);
+                  break;
+              default:
+                  printf("you have passed a wrong key");
+                  printf("\n press any key to continue");
+          }
+      } 
+  } 
+            </xmp></code>
+            </p>
+        </section>
+    </article>
+    </main>
+    </html>>
+  
+    
