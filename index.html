@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel="stylesheet" href="survey.css">
+    </head>>
+    <title>Survey form</title>
+    <h1 id="title">Survey Form</h1>
+    <p id="description"><strong>How much of a foodie are you ?</p></strong>
+  <form id="survey-form">
+   <table>
+      <tr>
+        <td>
+          <label for="name" id="name-label">Name:</label>
+        </td>
+        <td>
+          <input type="text" id="name" placeholder="RO sharma" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="email" id="email-label">Email:</label>
+        </td>
+        <td>
+          <input type="email" id="email" placeholder="ro@xyz.com" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="number" id="number-label">Number:</label>
+        </td>
+        <td>
+          <input type="number" id="number" placeholder="9876543210" min="0" max="99999999" required>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="dropdown">Gender:</label>
+        </td>
+        <td>
+          <select id="dropdown">
+            <option>Male</option>
+            <option>Female</option>
+            <option>other</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="cuisine">What type of cuisine is your favourite?</label>
+        </td>
+        <td>
+          <div>
+            <input type="radio" id="italian" name="cuisine" value="italian">
+            <label for="italian">Italian</label>
+          </div>
+          <div>
+            <input type="radio" id="french" name="cuisine" value="french">
+            <label for="french">French</label>
+          </div>
+          <div>
+            <input type="radio" id="indian" name="cuisine" value="indian">
+            <label for="indian">Indian</label>
+            </div>
+          <div>
+            <input type="radio" id="chinese" name="cuisine" value="chinese">
+            <label for="chinese">Chinese</label>
+            </div>
+            <div>
+            <input type="radio" id="thai" name="cuisine" value="thai">
+            <label for="thai">Thai</label>
+          </div>
+          </div>
+            </td>
+      </tr>
+     <tr>
+        <td>
+          <label for="food">Which type of food you prefer for a party?</label>
+        </td>
+        <td>
+          <div>
+            <input type="checkbox" id="paneer" name="khana" value="paneer">
+            <label for="paneer">Paneer</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Dal bati" name="khana" value="Dal bati">
+            <label for="Dal bati">Dal bati</label>
+          </div>
+          <div>
+            <input type="checkbox" id="gatte" name="khana" value="gatte">
+            <label for="gatte">Gatte</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Aloo matar" name="khana" value="Aloo matar">
+            <label for="Aloo matar">Aloo matar</label>
+          </div>
+          <div>
+            <input type="checkbox" id="Non-veg" name="khana" value="Non-veg">
+            <label for="Non-veg">Non-veg</label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Additional Comments</label>
+        </td>
+        <td>
+          <textarea id="additional-comments"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td>
+        </td>
+        <td>
+          <button type="submit" id="submit">Submit</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+  </html>>
+  

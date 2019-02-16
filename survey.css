@@ -1,0 +1,50 @@
+body{
+    background-color: #FFF176;
+    font-family: Lucida Console;
+  }
+  #title{
+    text-align: center;
+    color:#D50000 ;
+    font-size: 40px;
+  }
+  #description{
+    text-align:center;
+  }
+  #survey-form{
+    font-family: monospace;
+    min-width:1000px;
+    align-items:center;
+    background-color:#B2FF59;
+    padding:20px;
+  }
+  fieldset{
+    border:none;
+  }
+  input, textarea, option, select{
+    height:25px;
+    font-size:20px;
+    color:black;
+    
+  }
+  label{
+    font-size:20px;
+  }
+  td{
+     max-width:310px;
+  }
+  td:first-child{
+    padding-right:22px;
+    display:flex;
+    justify-content:flex-end;
+    padding-left:22px
+  }
+  button{
+    width:100px;
+    color:black;
+    height:45px;
+    font-size:25px;
+  }
+  td>div{
+    display:flex;
+    align-items:center;
+  }
